@@ -1,0 +1,436 @@
+/*FORMATAÇÃO GERAL*/
+body{
+	background-color;
+	font-family: 'Mukta', sans-serif;
+}
+
+
+h1, h1 , h2{
+	color: white;
+	margin: 0;
+	font-family: 'Francois One', sans-serif;
+	font-weight: 700;
+	 font-size: 3em;
+}
+
+p{
+	font-family: 'Fredoka One', cursive;
+
+}
+
+.container{
+	width: 100%;
+}
+
+#competencias a,#contato a:link{
+	color: #00008B;
+}
+
+#competencias a,#contato a:visited{
+	color: #00008B;
+}
+ 
+#competencias a,#contato a:hover{
+	color: #00008B;
+}
+
+#competencias a,#contato a:active{
+	color: #00008B;
+}
+
+/*CABEÇALHO*/
+
+.logo img{
+	border-radius: 50%;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #00008B;
+	padding: 30px;
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2%;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+/*HEADER*/ 
+
+header{
+	background-image: url('../img/background.gif'); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+	position: relative;
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+	color: white;
+}
+
+.botao{
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #00008B;
+	font-size: 0.8em;
+	border-radius: 5%;
+
+}
+
+/*SOBRE*/
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+#sobre h2{
+	margin-top: 20px;
+	font-size: 2em;
+}
+.foto img{
+	width: 60%;
+}
+.foto{
+	float: left;
+	width: 50%;
+}
+.texto{
+	margin-left: 70px;
+	color: white;
+	float: center;
+	width: 60%;
+}
+
+/*SOBRE*/
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+}
+#sobre h2{
+	 font-size: 3em;
+	text-align: center;
+	width: 100%;
+}
+#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 0 10px;
+}
+
+/*ESPECIALIDADES*/
+#especialidades {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+}
+#especialidades div {
+   display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}  
+#especialidades p {
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+} 
+#especialidades img {
+	width: 100px;
+	margin: 10px 0;
+} 
+#especialidades h2 {
+	font-size: 3em;
+	color: black;
+	margin-top: 200px;
+}
+#especialidades h3 {
+	font-size: 2em;
+	color: black;
+}
+	      
+/*COMPETENCIAS*/
+#competencias{
+	float: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	text-align: center;
+	padding-top:20px;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+#competencias h2{
+	margin-bottom: 50px;
+	margin-top: 200px;
+	font-size:3em;
+	text-align: center; 
+	color: black;
+
+}
+#competencias h3,p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size:1em;
+	text-align: center; 
+	color: black;
+}
+#competencias p{
+	font-size: 1em;
+}
+#competencias a{
+	text-decoration:none;
+}
+#competencias img{
+	width: 50%;
+	margin-bottom: 0;
+}
+#competencias .port p{
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+	border-radius: 15px;
+}
+
+/*MEUS TRABALHOS*/
+.trab img:hover{
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate();
+}
+.trab img{
+	border:5px groove black;
+}
+
+
+/*HOBBY
+#hobby {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+
+#hobby h2{
+	color:black;
+	font-size: 3em;
+	margin-top: 200px;
+	text-align: center;
+}
+
+.hobby{
+	width: 40%;
+	align-items: center;
+	text-align: center;
+}
+
+.hobby h3{
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+
+.hobby p{
+	margin-top: 100px;
+	font-size: 1.4em;
+}
+
+.hobby img{
+	width: 50%;
+	margin-bottom: 0;
+} */
+
+
+/*CONTATO*/
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#contato h2{
+
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	margin-top: 200px;
+	font-size: 3em;
+	text-align: center;
+	color: black;
+}
+
+#contato > p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#contato a{
+	text-decoration: none;
+	text-align: center;
+	font-family: "Francois One" sans-serif;
+}
+
+#contato p{
+	margin-bottom: 200px;
+}
+
+/*FOOTER*/
+footer{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 20px;
+	font-size: 1.5em;
+	padding-top: 20px;
+	background-color:rgb(0, 0, 130);
+	color:white;
+}
+
+
+@media screen and (min-width: 768px){
+nav {
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav ul{
+	flex-direction: row;
+	width: 100%; 
+}
+
+	/*HEADER*/
+	header{
+		height: 600px;
+		width: 100%;
+		justify-content: center;
+	}
+
+	/*SOBRE*/
+	#sobre{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		height: 90vh;
+		justify-content: center;
+		min-height: 80vh;
+		width: 100%;
+	}
+	#sobre h2{
+		text-align: center;
+		width: 100%;
+	}
+	#sobre div{
+		flex-grow: 1;
+		flex-basis: 300px;
+		padding: 0 10px;
+	}
+
+	/*ESPECIALIDADES*/
+	#especialidades{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	#especialidades h2{
+		text-align: center;
+		width: 100%;
+	}
+
+	#especialidades div{
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
+	#competencias{
+		flex-direction: row;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	#competencias h2,h3{
+		width: 100%;
+		text-align: center;
+	}
+
+	#competencias .port{
+		width: 33.33333333333333333%;
+		text-align: center;
+	}
+
+	/*CONTATO*/
+	#contato{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		max-height: 40vh;
+		width: 100%;
+	}
+
+	#contato h2, #contato p{
+		width: 100%;
+		text-align: center;
+	}
+
+
+
