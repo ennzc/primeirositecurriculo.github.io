@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #00b3fe;
+  background-color: #000000;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -1909,8 +1909,8 @@ pre code {
 
 .table .thead-dark th {
   color: #fff;
-  background-color: #343a40;
-  border-color: #454d55;
+  background-color: #252129;
+  border-color: #252129;
 }
 
 .table .thead-light th {
@@ -1920,14 +1920,14 @@ pre code {
 }
 
 .table-dark {
-  color: #fff;
-  background-color: #343a40;
+  color: #252129;
+  background-color: #defe47;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th {
-  border-color: #454d55;
+  border-color: #252129;
 }
 
 .table-dark.table-bordered {
@@ -3378,7 +3378,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #00b3fe;
+  color: #212529;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3386,7 +3386,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: #fe00fe;
   text-decoration: none;
   background-color: #f8f9fa;
 }
@@ -4632,7 +4632,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color:#00b3fe;
+  color:#212529;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -4643,7 +4643,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #00b3fe;
+  color: #212529;
 }
 
 .navbar-light .navbar-toggler {
@@ -4660,11 +4660,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-text a {
-  color:  #00b3fe;
+  color:  #212529;
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color:  #00b3fe;
+  color:  #212529;
 }
 
 .navbar-dark .navbar-brand {
@@ -4723,7 +4723,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #212529;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4761,10 +4761,12 @@ input[type="button"].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  background-color: #f5ff6e;
 }
 
 .card-title {
   margin-bottom: 0.75rem;
+  font-size: 2rem;
 }
 
 .card-subtitle {

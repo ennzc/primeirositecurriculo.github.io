@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#sobre{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2%;
+    background-color: #DEFE47;
+}
+
+.linha{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#sobre1{
+    margin-top: 5%;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.fundo-imagem{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2%;
+    background-color: #DEFE47;
+}
+
+.cor{
+    font-size: 50px;
+}
+
+
+
+.counts{
+    padding: 1% 0;
+}
+
+.counts .count-box{
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.counts .count-box span{
+    font-size:48px;
+    line-height: 48px;
+    display: block;
+    font-weight: 700;
+    margin-left: 80px;
+    margin: auto;
+}
+
+.counts .count-box h2{
+    padding: 2px 0 0 0;
+    font-weight: 600;
+    font-size: 2.5rem;
+    
+}
+
+.counts .count-box p{
+    padding: 2px 0 0 0;
+    font-size: 2rem;
+    
+}
+
+.tabela{
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    width: 80%;
+    background-color: #DEFE47;
+    
+}
+
+.row{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+    margin-top: 3%;
+}
+
+.audio{
+   position: relative;
+   width: 100px;
+}
