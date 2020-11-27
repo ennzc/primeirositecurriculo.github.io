@@ -38,6 +38,10 @@ html {
     font-size: 50px;
 }
 
+.cor2{
+    font-size: 50px;
+    color: #DEFE47;
+}
 
 
 .counts{
@@ -96,4 +100,33 @@ html {
 .audio{
    position: relative;
    width: 100px;
+}
+
+.textogaleria{
+    padding: 6%;
+ 
+}
+
+.textogaleria p{
+    text-align: justify;
+    font-size: 0.75em;
+}
+
+.contact .info{
+    padding: 30px;
+    width: 100%;
+}
+
+.contact .info h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.rodape{
+    margin-top: 5%;
+    background: #DEFE47;
+    padding: 2%;
+    text-align: center;
 }
