@@ -1,3 +1,3 @@
-https://ennzc.github.io/enzocandido.github.io
+https://ennzc.github.io/primeirositecurriculo.github.io/
 
-Site Pessoal
+Primeiro site pessoal, feito na ETEC.
